@@ -8,7 +8,7 @@ Ce site web a été créé avec react et boostrapped avec create-react-app
 
 Dans le directory vous pouvez lancer : 
 
-## `npm install`
+### `npm install`
 
 Installer les dépendances
 
