@@ -2,9 +2,16 @@
 
 Ce site web a été créé avec react et boostrapped avec create-react-app
 
+
+
 ## Scripts possibles
 
 Dans le directory vous pouvez lancer : 
+
+## npm install
+
+Installer les dépendances
+
 
 ### `npm start`
 
