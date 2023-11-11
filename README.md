@@ -20,10 +20,10 @@ Lance l'application backend
 
 ### DotEvn
 
-Créer un fichier .env dans le directory à la racine.
-PORT = 2000
-IDENTIFIANTS= MDB_USER:MDB_PASSWORD
-SECRET_KEY = "ADD_A_SECRET_KEY"  
+Créer un fichier .env dans le directory à la racine.<br>
+PORT = 2000<br>
+IDENTIFIANTS= MDB_USER:MDB_PASSWORD<br>
+SECRET_KEY = "ADD_A_SECRET_KEY"  <br>
 
 
 
