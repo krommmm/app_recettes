@@ -107,7 +107,7 @@ const IngredientAddSuppr = (props) => {
 				{recettes.ingredients.map((ingredients, index) => (
 					<div key={index} className="ingredients_align">
 						<ul className="condensed_container">
-						 <li className="condensed">{ingredients.ingredient}</li>
+						 <li className="condensed">⭐&nbsp;&nbsp;&nbsp;{ingredients.ingredient}</li>
 						 </ul>
 
 						{isProprio && (

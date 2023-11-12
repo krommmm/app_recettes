@@ -23,6 +23,7 @@ const Recipes = () => {
 		setNewCitation(citations[randomCitation]);
 	}, []);
 
+
 	useEffect(() => {
 		if (search === undefined) {
 			setFilterMachin(recettes);

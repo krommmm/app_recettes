@@ -9,6 +9,8 @@
 	width: 100%;
 	height: 80vh;
 	object-fit: cover;
+	padding-left:30px;
+	padding-bottom:30px;
 }
 
 .focus .focus_recette {
@@ -51,6 +53,7 @@
 	color: rgb(55 65 81);
 	word-break: break-word;
 	font-size: 20px;
+	list-style-type:none;
 }
 
 .condensed_instruction_container {
@@ -63,6 +66,7 @@
 	word-break: break-word;
 	font-size: 15px;
 	margin: 0px;
+	list-style-type:none;
 }
 
 .ingredients_align,

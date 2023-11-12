@@ -108,7 +108,7 @@ const InstructionAddSuppr = (props) => {
 					<div key={index} className="instructions_align">
 						<ul className="condensed_instruction_container">
 							<li className="condensed_instruction">
-								{instructions.instruction}
+							⭐&nbsp;&nbsp;&nbsp;{instructions.instruction}
 							</li>
 						</ul>
 						{isProprio && (
