@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'montageDemo';
+	src: url('../images/fonts/Montage-Demo.ttf');
+}
+
 .focus {
 	background-color: rgba(0, 0, 0, 0.03);
 }
@@ -29,11 +34,11 @@
 }
 
 .focus .focus_recette .title {
-	font-size: 30px;
+	font-size: 70px;
 	font-weight: 600;
 	margin: 15px 21px 10px 0px;
 	word-break: break-all;
-	font-family:logoPolice;
+	font-family:montageDemo;
 }
 
 .focus article {
