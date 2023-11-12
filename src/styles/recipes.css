@@ -28,7 +28,16 @@
 	flex-wrap: wrap;
 	width: 80%;
 	margin: auto;
+	opacity:0;
+	animation-name: chgt-opacity;
+     animation-duration: 1s;
+	 animation-fill-mode: forwards;
 }
+
+@keyframes chgt-opacity{
+	from{opacity:0; transform: translateY(10%);}
+	to{opacity:1; transform: translateY(0%);}
+ }  
 
 .recettes_container a {
 	color: inherit;
@@ -72,7 +81,7 @@
   color: white;
 }
 
-.recipes article img {
+.recipes article img { 
 	width: 17vw;
 	height: 17vw;
 	object-fit: cover;
