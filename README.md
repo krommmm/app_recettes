@@ -28,6 +28,7 @@ Une connexion sécurisée permet de se crééer un compte et de crud les recette
 > PORT = 2000<br>
 > IDENTIFIANTS= MDB_USER:MDB_PASSWORD<br>
 > SECRET_KEY = "ADD_A_SECRET_KEY" <br>
+> NOMSECRET = "nom_secret"
 
 ### Installer node.js
 
