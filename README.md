@@ -1,43 +1,46 @@
-# Cuisine, projet de dépôt et de recherche de recettes de cuisine
+# CuisineFamille
 
-Ce site web a été créé avec react et boostrapped avec create-react-app
+## Site de recherche de cuisine
 
+ <img style="width: 100px;" src="./src/images/git/1.png" alt="Game Workshop Logo">
+ <img style="width: 100px;" src="./src/images/git/2.png" alt="Game Workshop Logo">
+ <img style="width: 100px;" src="./src/images/git/3.png" alt="Game Workshop Logo">
 
+## Technos :
 
-## Scripts possibles
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-Dans le directory vous pouvez lancer : 
+## Description:
+Serveur node.js , API restful, crud pour utilisateur et recettes.<br>
+Front avec react, boostraped avec create-react-app.<br>
+Des recettes sont affichées et une barre de recherche permet de trier les recettes par nom, ingrédients ou tags.<br>
+Une connexion sécurisée permet de se crééer un compte et de crud les recettes selons ses droits.<br>
 
-### `npm install`
+## URL :
+> https://cuisinefamille.net/
 
-Installer les dépendances
-
-
-### `npm start`
-
-Lance l'application frontend
-http://localhost:3000
-
-### `node server`
- 
-Lance l'application backend
-
-
-## Configuration .env et varGlobal
-
-### DotEvn
-
+## Variables d'environnement:
 > Créer un fichier .env dans le directory à la racine.<br>
+> PORT = 2000<br>
+> IDENTIFIANTS= MDB_USER:MDB_PASSWORD<br>
+> SECRET_KEY = "ADD_A_SECRET_KEY" <br>
 
-PORT = 2000<br>
-IDENTIFIANTS= MDB_USER:MDB_PASSWORD<br>
-SECRET_KEY = "ADD_A_SECRET_KEY"  <br>
+### Installer node.js
 
+### Ajouter variables d'environnement
 
+### Installer les dépendances:
 
+`npm install`
 
-### VarGlobal
+### Lancer le serveur:
 
-configurer le n° de port ainsi que l'url dans src/components/varGlobal.js
+`node server`
 
+### Lancer l'application:
 
+`npm run start`

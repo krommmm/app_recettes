@@ -69,10 +69,13 @@
 	text-transform: uppercase;
 	font-weight: 600;
 	cursor: pointer;
+	transition-duration: 0.2s;
+	
 }
 
 .login .formPart button:active{
-	border: 5px solid  rgb(41, 40, 40);;
+	transform: scaleX(0.9);
+	opacity: 0.8;
 }
 
 .inscription_login {
