@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/Users');
 const fs = require('fs');
 const Recette = require('../models/Recette');
+require("dotenv").config();
 
 const nodemailer = require('nodemailer');
 
@@ -21,7 +22,7 @@ const transporter = nodemailer.createTransport({
 });
 
 exports.signUp = (req, res, next) => {
-	if (req.body.ville.toLowerCase() !== 'claire') {
+	if (req.body.ville.toLowerCase() !== `${process.env.NOMSECRET}`) {
 		res.status(201).json({ msg: 'Mauvais prénom !' });
 	} else {
 		bcrypt
