@@ -16,7 +16,7 @@
 
 ## Description:
 Serveur node.js , API restful, crud pour utilisateur et recettes.<br>
-Front avec react, boostraped avec create-react-app.<br>
+Front avec react, bootstrapped avec create-react-app.<br>
 Des recettes sont affichées et une barre de recherche permet de trier les recettes par nom, ingrédients ou tags.<br>
 Une connexion sécurisée permet de se crééer un compte et de crud les recettes selons ses droits.<br>
 
