@@ -20,8 +20,6 @@ Front avec react, bootstrapped avec create-react-app.<br>
 Des recettes sont affichées et une barre de recherche permet de trier les recettes par nom, ingrédients ou tags.<br>
 Une connexion sécurisée permet de se crééer un compte et de crud les recettes selons ses droits.<br>
 
-## URL :
-> https://cuisinefamille.net/
 
 ## Variables d'environnement:
 > Créer un fichier .env dans le directory à la racine.<br>
